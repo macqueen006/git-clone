@@ -690,6 +690,10 @@ video {
   width: 50%;
 }
 
+.w-7 {
+  width: 1.75rem;
+}
+
 .items-end {
   align-items: flex-end;
 }
@@ -1059,6 +1063,11 @@ video {
 .hover\:text-gray-400:hover {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.hover\:text-gray-600:hover {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {
