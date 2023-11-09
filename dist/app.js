@@ -6,7 +6,7 @@ const handleNavVisibility = () => {
     let viewportWidth = window.innerWidth || document.documentElement.clientWidth;
 
     // Define breakpoints
-    let breakpoints = [100, 200, 411, 507, 606, 703];
+    let breakpoints = [0, 200, 411, 507, 606, 703];
     let listElements = document.querySelectorAll('.repo-nav li');
 
     for (let i = 0; i < listElements.length; i++) {
