@@ -1,6 +1,5 @@
 "use strict";
 
-
 const handleNavVisibility = () => {
     // get viewport width
     let viewportWidth = window.innerWidth || document.documentElement.clientWidth;
